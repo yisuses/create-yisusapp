@@ -1,0 +1,28 @@
+{
+  "name": "create-yisusapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yisuses/create-yisusapp.git"
+  },
+  "engines": {
+    "node": ">=14",
+    "yarn": ">=1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "create-yisusapp": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "8.2.0",
+    "fs-extra": "10.0.0",
+    "shelljs": "0.8.4"
+  }
+}
